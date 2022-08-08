@@ -5,7 +5,7 @@
 # calling "make" in the terminal, the default program it runs is "all"
 
 # macros listed below; should be written in all caps
-TARGET = exec
+TARGET = my_ngram
 SRC = main.c my_ngram.c
 OBJ = main.o my_ngram.o
 CFLAGS += -Wall -Wextra -Werror
@@ -37,5 +37,5 @@ re: fclean all
 # Make sure you are in the correct directory.
 # Remember, you must call make in the terminal to assemble your executable.
 # Then you must call your executable in the terminal to "execute" your program.
-# Don't forget the preceding ./ with your executable (in this case called "exec")
-# Arguments to be counted by ngram must follow your ./exec call.
+# Don't forget the preceding ./ with your executable (in this case called "my_ngram")
+# Arguments to be counted by ngram must follow your ./my_ngram call.
